@@ -1,4 +1,4 @@
-# 10. Results
+##  10. Results
 
 Subjectively, I'd estimate the performance gain at 30-40% in comparison with the period before the Claude Code introduction. So, it's definitely more than a week saved per month.
 
