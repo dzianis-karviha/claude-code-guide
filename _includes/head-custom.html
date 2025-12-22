@@ -26,6 +26,12 @@
       githubBtn.parentNode.insertBefore(linkedinBtn, githubBtn.nextSibling);
       githubBtn.parentNode.insertBefore(document.createTextNode(' '), linkedinBtn);
     }
+
+    // Fix author name in footer
+    var footer = document.querySelector('.site-footer-credits');
+    if (footer) {
+      footer.innerHTML = footer.innerHTML.replace('dzianis-karviha', 'Dzianis Karviha');
+    }
   });
 </script>
 
