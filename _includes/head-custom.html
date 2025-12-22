@@ -1,7 +1,20 @@
 <!-- Mermaid diagram support -->
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
-  mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+  document.addEventListener('DOMContentLoaded', function() {
+    // Convert ```mermaid code blocks to mermaid divs
+    document.querySelectorAll('pre code.language-mermaid').forEach(function(codeBlock) {
+      var pre = codeBlock.parentElement;
+      var div = document.createElement('div');
+      div.className = 'mermaid';
+      div.textContent = codeBlock.textContent;
+      pre.parentElement.replaceChild(div, pre);
+    });
+
+    // Initialize mermaid after conversion
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+    mermaid.run();
+  });
 </script>
 
 <style>
@@ -19,6 +32,8 @@
   .mermaid {
     text-align: center;
     margin: 24px 0;
+    background: white;
+    padding: 16px;
   }
 
   /* Better heading anchors */

@@ -24,4 +24,4 @@ This is still exploratory — I'll explore existing tooling first. If you've bui
 
 ---
 
-*Author: Dzianis Karviha (https://www.linkedin.com/in/dzianis-karviha)*
+*Author: Dzianis Karviha ([https://www.linkedin.com/in/dzianis-karviha](https://www.linkedin.com/in/dzianis-karviha))*
