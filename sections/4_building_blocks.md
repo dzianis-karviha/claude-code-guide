@@ -72,7 +72,7 @@ Each MCP server provides a set of tools that Claude Code may use when it needs t
 
 Here is a specification of tools in the custom MCP server I implemented for getting the data from YouTrack (the task tracker we use on the project).
 
-```json
+```typescript
 {
   tools: [
       {
