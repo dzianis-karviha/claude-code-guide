@@ -14,6 +14,18 @@
     // Initialize mermaid after conversion
     mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
     mermaid.run();
+
+    // Add LinkedIn button to header
+    var githubBtn = document.querySelector('.btn');
+    if (githubBtn) {
+      var linkedinBtn = document.createElement('a');
+      linkedinBtn.href = 'https://www.linkedin.com/in/dzianis-karviha/';
+      linkedinBtn.className = 'btn';
+      linkedinBtn.target = '_blank';
+      linkedinBtn.textContent = 'Connect on LinkedIn';
+      githubBtn.parentNode.insertBefore(linkedinBtn, githubBtn.nextSibling);
+      githubBtn.parentNode.insertBefore(document.createTextNode(' '), linkedinBtn);
+    }
   });
 </script>
 
