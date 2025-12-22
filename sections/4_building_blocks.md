@@ -8,7 +8,7 @@ It's the simplest tool. You can type `claude` in your working directory and then
 
 ### CLAUDE.md file
 
-https://platform.claude.com/docs/en/agent-sdk/modifying-system-prompts#method-1-claude-md-files-project-level-instructions
+<https://platform.claude.com/docs/en/agent-sdk/modifying-system-prompts#method-1-claude-md-files-project-level-instructions>
 
 CLAUDE.md file is a plain but powerful feature of Claude Code. The idea is simple: CLAUDE.md content is always included in the context when Claude Code works with files in this directory. In CLAUDE.md, you can mention documentation files, source code files, or any other references Claude should consider. There's no special syntax—just write naturally, like: "See `docs/git-commit-format.md` when preparing Git commits." Claude Code will include referenced files only when relevant to the current task.
 
@@ -30,7 +30,7 @@ This hierarchy lets you organize context by scope: project-wide conventions in t
 
 ### Subagents
 
-https://code.claude.com/docs/en/sub-agents
+<https://code.claude.com/docs/en/sub-agents>
 
 The official doc says:
 
@@ -42,7 +42,7 @@ Each subagent has its own context, which helps reduce the context usage of the m
 
 Personally, I didn't find this approach to work well. It doesn't mean that it cannot be effective, but I found it's beneficial to have a single conversation with the feature context - which, of course, has its constraints - in context window size. Mostly, I'm using subagents for code reviewing. During the code review, the subagent runs with its own context (base process just provides some overview of what should be reviewed) and it's not biased by the decisions made during the source code implementation.
 
-There are many public collections of Claude Code subagents like this, for example https://github.com/VoltAgent/awesome-claude-code-subagents.
+There are many public collections of Claude Code subagents like this, for example <https://github.com/VoltAgent/awesome-claude-code-subagents>.
 
 However, I suggest building your own subagents (and other prompts) designed specifically for your project rather than using public ones. Generic prompts won't understand your codebase patterns and conventions. See the "It's all about context" section for more on why minimal, project-specific prompts work better.
 
@@ -62,7 +62,7 @@ When I say "separate context," I mean that subagents run in their own context wi
 
 ### MCP server
 
-https://code.claude.com/docs/en/mcp
+<https://code.claude.com/docs/en/mcp>
 
 MCP is the protocol that allows you to connect with external sources, for example, with the task tracker, with the monitoring tool, Slack, etc.
 
@@ -155,7 +155,7 @@ There are already many published official MCP servers, if an official MCP server
 
 ### Skills
 
-https://code.claude.com/docs/en/skills
+<https://code.claude.com/docs/en/skills>
 
 This is a relatively new tool introduced in Claude Code in the middle of October 2025.
 It's just a different dimension of presenting the project knowledge in comparison with subagents and CLAUDE.md files. According to Claude Code documentation, skills are expected to be the description of atomic operations/updates you do on the project, like `implementing-unit-test`, `implementing-controller`, `creating-database-migration`.
@@ -175,11 +175,11 @@ For example, when we speak about a REST web application. To implement a single A
 
 When this information is not provided via skill, Claude Code will try to understand patterns just based on the existing source code and documentation—and in most scenarios, it does this successfully. Skills offer a more structured way to encode your patterns.
 
-Note: Earlier, I experienced skills being invoked rarely—Claude Code seemed to use SKILL.md content without explicitly indicating the skill was running - while it seem that Claude Code actually reads SKILL.md content but just didn't indicate that skill is run. This has improved in recent versions. I'd suggest experimenting with skills on your projects—along with Plugins (https://code.claude.com/docs/en/plugins), they can be a good way to share patterns within your organization.
+Note: Earlier, I experienced skills being invoked rarely—Claude Code seemed to use SKILL.md content without explicitly indicating the skill was running - while it seem that Claude Code actually reads SKILL.md content but just didn't indicate that skill is run. This has improved in recent versions. I'd suggest experimenting with skills on your projects—along with Plugins (<https://code.claude.com/docs/en/plugins>), they can be a good way to share patterns within your organization.
 
 ### Slash commands
 
-https://code.claude.com/docs/en/slash-commands
+<https://code.claude.com/docs/en/slash-commands>
 
 Claude Code provides a set of standard slash commands (like `/clear` for clearing the existing context, `/exit` etc).
 

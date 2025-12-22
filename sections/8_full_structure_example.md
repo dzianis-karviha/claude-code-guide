@@ -107,4 +107,4 @@ You can use plugins within your organization to apply standardized processes acr
 
 For a single project, this also makes sense. Currently, I have a pretty well-structured process of feature development. But I also have a set of occasional agents/skills/commands for different tasks — preparing requirements, generating an overview for the client, etc. Related tools can be structured into plugins. 
 
-See the documentation here https://code.claude.com/docs/en/plugins.
+See the documentation here <https://code.claude.com/docs/en/plugins>.
