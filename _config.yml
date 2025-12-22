@@ -3,10 +3,14 @@ description: "A practical guide to integrating Claude Code into existing large p
 baseurl: "/claude-code-guide"
 url: "https://dzianis-karviha.github.io"
 
-# Theme
-remote_theme: pages-themes/minimal@v0.2.0
+# Theme - Cayman is single-column
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
+
+# Include HTML files
+include:
+  - "*.html"
 
 # Markdown processing
 markdown: kramdown
