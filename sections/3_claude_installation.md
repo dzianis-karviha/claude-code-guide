@@ -7,6 +7,6 @@ Follow the official guide https://code.claude.com/docs/en/quickstart#step-1:-ins
 
 To try out the tool, you'll need to buy at least a Pro Plan subscription costing $20/month.  For regular usage, you'll likely need a Max subscription ($100/month). Claude sets usage limits per 5-hour window—with the Pro plan, I'd hit the limit within 1 hour of active work. The Max plan (5x the capacity) fits my workflow well, and I usually use it close to its limits.
 
-![img.png](limits.png)
+![img.png](sections/limits.png)
 
 Here is the official Claude documentation https://platform.claude.com/docs/en/ and the Claude Code documentation https://code.claude.com/docs/en. I'll reference specific parts in the subsequent sections.

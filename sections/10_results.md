@@ -54,8 +54,8 @@ The following metrics are used:
 
 And here is the graph that compares NET LOC statistic of October - December 2025 with other periods
 
-![img.png](performance.png)
+![img.png](sections/performance.png)
 
 For more detailed metrics, see the interactive charts:
 
-[Weekly Statistic](./weekly_stats.html) | [Period Statistic](./period_stats.html)
+[Weekly Statistic](sections/./weekly_stats.html) | [Period Statistic](sections/./period_stats.html)

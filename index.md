@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Integrating Claude Code into Production Workflows
 ---
 
 # Integrating Claude Code into Production Workflows
