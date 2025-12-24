@@ -285,11 +285,4 @@ Otherwise: reference existing example files.
 Always gerund form (-ing) for action.
 ```
 
-This skill demonstrates several patterns worth noting:
-
-- **Core philosophy section** — sets expectations for what should and shouldn't be included
-- **Conflict checking** — verifies the skill doesn't duplicate existing functionality
-- **Template structure** — provides a consistent format for all skills
-- **Naming conventions** — ensures skills are easy to find and understand
-
 Ironically, this skill doesn't follow its own "50-150 lines" recommendation. This is not a hard rule, but rather a constraint for Claude Code while it implements the skill - it's forced to keep the information short and provide only necessary details.s
